@@ -16,7 +16,6 @@
     "fastify-formbody": "^5.0.0",
     "joi": "^17.2.1",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.10.6",
-    "pg": "^8.3.3"
+    "mongoose": "^5.10.6"
   }
 }

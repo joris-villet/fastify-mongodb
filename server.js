@@ -15,7 +15,7 @@ const start = async () => {
     // Module to make an equivalent of express.urlencoded
     await fastify.register(require('fastify-formbody'))
 
-    // require my route about users
+    // require routes about users
     await fastify.register(require('./app/routes/users.routes'));
 
     await fastify.listen(process.env.PORT || 5555);
